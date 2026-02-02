@@ -72,7 +72,7 @@ public class BigO
         // TODO adjust the next line to see where n0 is.
         // TODO that is, in the "for" statement, play with any/all of the 3 numbers as needed to find
         // TODO the approximate value of n0 where
-        for (int n = 10; n <= 1000; n *= 3) { // TODO change this line of code!
+        for (int n = 10; n <= 1000; n *= 24) { // TODO change this line of code!
             long nSquaredTime = nSquared(n);
             System.out.println("\nFor " + Integer.toString(n) + " items, n**2 time in ms is: " + Long.toString(nSquaredTime));
             long nCubedTime = nCubed(n);
